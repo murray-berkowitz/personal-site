@@ -18,5 +18,6 @@ myApp.controller('homeController', ['$scope', '$log', function($scope, $log){
 }]);
 
 myApp.controller('secondController', ['$scope', '$log', function($scope, $log){
-	$scope.name = 'Home';
+	$scope.name = 'Second';
+	$log("It worked");
 }]);
