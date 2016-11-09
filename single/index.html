@@ -1,15 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myApp">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<script src="https://code.angularjs.org/1.3.0/angular.min.js"></script>
 	<script src="https://code.angularjs.org/1.3.0/angular-route.min.js"></script>
-	<script src="app.js"></script>
+	<script src="https://code.angularjs.org/1.3.0/angular-animate.min.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </head>
 <body>
-	<div>
-		<div ng-view></div>
+	<div class="home span12">	
+		<div class="exact2 menu center">
+			<h1 class="regular logo">Hello</h1>
+			<div class="menu-content">	
+				<div class="menu-item"><a href="#/"><h3 class="regular primary-pink menu-link bottom">Home</h3></a></div>
+				<div class="menu-item"><a href="#second"><h3 class="regular primary-pink bottom menu-link">About</h3></a></div>
+				<div class="menu-item"><a href=""><h3 class="regular primary-pink bottom menu-link">Skills</h3></a></div>
+				<div class="menu-item"><a href=""><h3 class="regular primary-pink bottom menu-link">Projects</h3></a></div>
+				<div class="menu-item"><a href=""><h3 class="regular primary-pink bottom menu-link">Contact</h3></a></div>
+			</div>
+		</div>
+		<div class="exact10 rel">
+			<div ng-view class="fade"></div>
+		</div>
 	</div>
+	<script src="app.js"></script>
 </body>
 </html>

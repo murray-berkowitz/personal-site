@@ -1,0 +1,78 @@
+body {
+	margin:0;
+	padding:0;
+    font-family: 'Quicksand', sans-serif;
+}
+@for $i from 2 through 11 {
+	.span#{$i} {
+		$x : 12/$i;
+		width: ((100-$x+1)/$x)*1%;
+		float:left;
+	}
+}
+@for $i from 1 through 11 {
+	.exact#{$i} {
+		$x : 12/$i;
+		width: ((100)/$x)*1%;
+		float:left;
+	}
+}
+.span12 {
+	width:100%;
+	float:left;
+}
+.col {
+	margin-left:1%;
+}
+
+.center {
+	text-align:center;
+}
+.outer {
+	display: table;
+    position: relative;
+    width: 100%;
+    height:85%;
+}
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.inline {
+	display:inline-block;
+}
+.home {
+	.menu-content{
+		position:relative;
+		top:20%;
+		width:100%;
+	}
+}
+.rel {
+	position:relative;
+}
+.fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 1;
+}
+.fade.ng-enter,
+.fade.ng-leave {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.fade.ng-enter {
+    opacity: 0;
+}
+.fade.ng-enter-active {
+    opacity: 1;
+}
+.fade.ng-leave {
+    opacity: 1;
+}
+.fade.ng-leave-active {
+    opacity: 0;
+}
