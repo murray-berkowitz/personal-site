@@ -175,7 +175,7 @@ h4 {
   height: 100vh; }
 
 .home-img {
-  background-image: url(../img/flower.jpg);
+  background-image: url(../img/home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh; }
@@ -223,7 +223,7 @@ a:link {
   height: 100vh; }
 
 .home-img {
-  background-image: url(../img/flower.jpg);
+  background-image: url(../img/home.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh; }
