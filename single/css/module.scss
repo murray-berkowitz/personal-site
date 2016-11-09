@@ -5,7 +5,7 @@
 	height:100vh;
 }
 .home-img {
-	background-image: url(../img/home.jpg);
+	background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.75)),url(../img/home.jpg);
 	background-size:cover;
 	background-repeat:no-repeat;
 	height:100vh;
