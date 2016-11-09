@@ -146,6 +146,16 @@ h4 {
 .bottom {
   margin-bottom: .5em; }
 
+.table {
+  display: table;
+  height: 100vh;
+  margin: 0 auto; }
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
+
 .fade {
   position: absolute;
   top: 0;
@@ -188,39 +198,19 @@ h4 {
   width: 10% !important; }
 .home .exact10 {
   width: 90% !important; }
-  .home .exact10 .fade {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    opacity: 1; }
-  .home .exact10 .fade.ng-enter,
-  .home .exact10 .fade.ng-leave {
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease; }
-  .home .exact10 .fade.ng-enter {
-    opacity: 0; }
-  .home .exact10 .fade.ng-enter-active {
-    opacity: 1; }
-  .home .exact10 .fade.ng-leave {
-    opacity: 1; }
-  .home .exact10 .fade.ng-leave-active {
-    opacity: 0; }
 .home .menu-item {
-  transition: .75s background-color ease-in;
   display: inline-block;
   padding: 0 15px; }
   .home .menu-item .menu-link {
     transition: .75s color ease-in;
     padding: 10px 0; }
-  .home .menu-item:hover {
-    background-color: #210124; }
-    .home .menu-item:hover .menu-link {
-      color: #E5FCF5 !important; }
+  .home .menu-item:hover .menu-link {
+    color: #E5FCF5 !important; }
 .home .container {
   max-width: 1400px;
   margin: 0 auto; }
+.home .home-page h1 {
+  color: white; }
 
 a:link {
   text-decoration: none;
@@ -247,39 +237,19 @@ a:link {
   width: 10% !important; }
 .home .exact10 {
   width: 90% !important; }
-  .home .exact10 .fade {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    opacity: 1; }
-  .home .exact10 .fade.ng-enter,
-  .home .exact10 .fade.ng-leave {
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease; }
-  .home .exact10 .fade.ng-enter {
-    opacity: 0; }
-  .home .exact10 .fade.ng-enter-active {
-    opacity: 1; }
-  .home .exact10 .fade.ng-leave {
-    opacity: 1; }
-  .home .exact10 .fade.ng-leave-active {
-    opacity: 0; }
 .home .menu-item {
-  transition: .75s background-color ease-in;
   display: inline-block;
   padding: 0 15px; }
   .home .menu-item .menu-link {
     transition: .75s color ease-in;
     padding: 10px 0; }
-  .home .menu-item:hover {
-    background-color: #210124; }
-    .home .menu-item:hover .menu-link {
-      color: #E5FCF5 !important; }
+  .home .menu-item:hover .menu-link {
+    color: #E5FCF5 !important; }
 .home .container {
   max-width: 1400px;
   margin: 0 auto; }
+.home .home-page h1 {
+  color: white; }
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
@@ -304,6 +274,16 @@ h4 {
 
 .bottom {
   margin-bottom: .5em; }
+
+.table {
+  display: table;
+  height: 100vh;
+  margin: 0 auto; }
+
+.table-cell {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center; }
 
 .fade {
   position: absolute;

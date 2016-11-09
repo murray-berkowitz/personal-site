@@ -24,6 +24,16 @@ h4 {
 .bottom {
 	margin-bottom:.5em;
 }
+.table {
+	display:table;
+	height:100vh;
+	margin:0 auto;
+}
+.table-cell{
+	display:table-cell;
+	vertical-align:middle;
+	text-align: center;
+}
 .fade {
     position: absolute;
     top: 0;

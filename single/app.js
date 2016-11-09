@@ -7,17 +7,17 @@ myApp.config(function($routeProvider){
 		controller: 'homeController'
 	})
 
-	.when('/second', {
+	.when('/skills', {
 		templateUrl: 'about.html',
 		controller : 'aboutController'
 	})
 });
 
 myApp.controller('homeController', ['$scope', '$log', function($scope, $log){
-	$scope.name = 'Home';
+	$scope.name = 'About';
 }]);
 
-myApp.controller('aboutController', ['$scope', '$log', function($scope, $log){
-	$scope.name = 'About';
+myApp.controller('skillsController', ['$scope', '$log', function($scope, $log){
+	$scope.name = 'Skills';
 	$log("It worked");
 }]);
