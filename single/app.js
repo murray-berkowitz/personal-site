@@ -8,8 +8,8 @@ myApp.config(function($routeProvider){
 	})
 
 	.when('/second', {
-		templateUrl: 'second.html',
-		controller : 'secondController'
+		templateUrl: 'about.html',
+		controller : 'aboutController'
 	})
 });
 
@@ -17,7 +17,7 @@ myApp.controller('homeController', ['$scope', '$log', function($scope, $log){
 	$scope.name = 'Home';
 }]);
 
-myApp.controller('secondController', ['$scope', '$log', function($scope, $log){
-	$scope.name = 'Second';
+myApp.controller('aboutController', ['$scope', '$log', function($scope, $log){
+	$scope.name = 'About';
 	$log("It worked");
 }]);
