@@ -28,6 +28,9 @@ body {
 .center {
 	text-align:center;
 }
+.right{
+	text-align:right;
+}
 .outer {
 	display: table;
     position: relative;
@@ -44,35 +47,10 @@ body {
 .home {
 	.menu-content{
 		position:relative;
-		top:20%;
+		display: inline-block;
 		width:100%;
 	}
 }
 .rel {
 	position:relative;
-}
-.fade {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    opacity: 1;
-}
-.fade.ng-enter,
-.fade.ng-leave {
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-}
-.fade.ng-enter {
-    opacity: 0;
-}
-.fade.ng-enter-active {
-    opacity: 1;
-}
-.fade.ng-leave {
-    opacity: 1;
-}
-.fade.ng-leave-active {
-    opacity: 0;
 }

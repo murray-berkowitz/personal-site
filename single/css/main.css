@@ -98,6 +98,9 @@ body {
 .center {
   text-align: center; }
 
+.right {
+  text-align: right; }
+
 .outer {
   display: table;
   position: relative;
@@ -113,36 +116,11 @@ body {
 
 .home .menu-content {
   position: relative;
-  top: 20%;
+  display: inline-block;
   width: 100%; }
 
 .rel {
   position: relative; }
-
-.fade {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  opacity: 1; }
-
-.fade.ng-enter,
-.fade.ng-leave {
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease; }
-
-.fade.ng-enter {
-  opacity: 0; }
-
-.fade.ng-enter-active {
-  opacity: 1; }
-
-.fade.ng-leave {
-  opacity: 1; }
-
-.fade.ng-leave-active {
-  opacity: 0; }
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
@@ -169,10 +147,8 @@ h4 {
   margin-bottom: .5em; }
 
 .menu {
-  background-image: url(../img/cream.jpg);
-  background-size: cover;
-  background-repeat: repeat;
-  height: 100vh; }
+  position: fixed;
+  z-index: 999; }
 
 .home-img {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)), url(../img/home.jpg);
@@ -187,8 +163,29 @@ h4 {
   width: 10% !important; }
 .home .exact10 {
   width: 90% !important; }
+  .home .exact10 .fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 1; }
+  .home .exact10 .fade.ng-enter,
+  .home .exact10 .fade.ng-leave {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease; }
+  .home .exact10 .fade.ng-enter {
+    opacity: 0; }
+  .home .exact10 .fade.ng-enter-active {
+    opacity: 1; }
+  .home .exact10 .fade.ng-leave {
+    opacity: 1; }
+  .home .exact10 .fade.ng-leave-active {
+    opacity: 0; }
 .home .menu-item {
-  transition: .75s background-color ease-in; }
+  transition: .75s background-color ease-in;
+  display: inline-block;
+  padding: 0 15px; }
   .home .menu-item .menu-link {
     transition: .75s color ease-in;
     padding: 10px 0; }
@@ -196,17 +193,9 @@ h4 {
     background-color: #210124; }
     .home .menu-item:hover .menu-link {
       color: #E5FCF5 !important; }
-.home .slider-circles {
-  position: absolute;
-  bottom: 8px;
-  left: 50%; }
-  .home .slider-circles .circle {
-    border-radius: 50%;
-    display: inline-block;
-    background-color: #E5FCF5;
-    margin: 2px;
-    width: 12px;
-    height: 12px; }
+.home .container {
+  max-width: 1400px;
+  margin: 0 auto; }
 
 a:link {
   text-decoration: none;
@@ -217,10 +206,8 @@ a:link {
   transition: .5s background-color ease-in; }
 
 .menu {
-  background-image: url(../img/cream.jpg);
-  background-size: cover;
-  background-repeat: repeat;
-  height: 100vh; }
+  position: fixed;
+  z-index: 999; }
 
 .home-img {
   background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.75)), url(../img/home.jpg);
@@ -235,8 +222,29 @@ a:link {
   width: 10% !important; }
 .home .exact10 {
   width: 90% !important; }
+  .home .exact10 .fade {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    opacity: 1; }
+  .home .exact10 .fade.ng-enter,
+  .home .exact10 .fade.ng-leave {
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease; }
+  .home .exact10 .fade.ng-enter {
+    opacity: 0; }
+  .home .exact10 .fade.ng-enter-active {
+    opacity: 1; }
+  .home .exact10 .fade.ng-leave {
+    opacity: 1; }
+  .home .exact10 .fade.ng-leave-active {
+    opacity: 0; }
 .home .menu-item {
-  transition: .75s background-color ease-in; }
+  transition: .75s background-color ease-in;
+  display: inline-block;
+  padding: 0 15px; }
   .home .menu-item .menu-link {
     transition: .75s color ease-in;
     padding: 10px 0; }
@@ -244,17 +252,9 @@ a:link {
     background-color: #210124; }
     .home .menu-item:hover .menu-link {
       color: #E5FCF5 !important; }
-.home .slider-circles {
-  position: absolute;
-  bottom: 8px;
-  left: 50%; }
-  .home .slider-circles .circle {
-    border-radius: 50%;
-    display: inline-block;
-    background-color: #E5FCF5;
-    margin: 2px;
-    width: 12px;
-    height: 12px; }
+.home .container {
+  max-width: 1400px;
+  margin: 0 auto; }
 
 h1, h2, h3, h4, h5, h6, p {
   margin: 0; }
